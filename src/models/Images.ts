@@ -17,7 +17,7 @@ const PhotoSchema = z.object({
     large: z.string(),
   }),
   alt: z.string(),
-  BlurredDataUrl: z.string().optional(),
+  blurredDataUrl: z.string().optional(),
 });
 
 export const ImagesSchemaWithPhotos = BasicImageSchema.extend({
