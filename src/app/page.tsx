@@ -1,7 +1,6 @@
-import Image from 'next/image'
+import Image from "next/image";
+import Gallery from "./components/Gallery";
 
 export default function Home() {
-  return (
-    <h1>Hello World!!!</h1>
-  )
+  return <Gallery />;
 }
