@@ -15,7 +15,7 @@ export default async function fetchImages(
     if (!response.ok) throw new Error("Failed to fetch images");
     const imagesResults: ImagesResults = await response.json();
 
-    console.log(imagesResults);
+    //console.log(imagesResults);
 
     // parsing the data into a zod schema
     const parsedData = ImagesSchemaWithPhotos.parse(imagesResults);

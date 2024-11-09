@@ -2,6 +2,8 @@ import Navbar from "./components/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
 
+export const revalidate = 0;
+
 export const metadata: Metadata = {
   title: "Awesome Image Gallery",
   description: "Super Optimised Dynamic Image Gallery",
