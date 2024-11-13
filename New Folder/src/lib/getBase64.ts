@@ -36,3 +36,4 @@ export default async function addBlurredDataUrls(images: ImagesResults): Promise
 
     return photosWithBlur
 }
+
